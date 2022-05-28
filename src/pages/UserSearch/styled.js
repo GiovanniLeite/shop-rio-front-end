@@ -37,7 +37,7 @@ export const Container = styled.section`
           input {
             width: 100%;
             padding: ${theme.spacings.small};
-            background: url('http://localhost:3001/images/search_evmmru.png') no-repeat center right;
+            background: url(${`${api_url}/images/search_evmmru.png`}) no-repeat center right;
             border: none;
             background-color: #fff;
           }

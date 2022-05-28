@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import api_url from '../../config/api';
 
 export const Container = styled.header`
   width: 100%;
@@ -193,7 +194,7 @@ export const MainBar = styled.div`
           input {
             padding: 10px;
             width: 100%;
-            background: url('http://localhost:3001/images/search_evmmru.png')
+            background: url(${`${api_url}/images/search_evmmru.png`})
               no-repeat center right;
             border: none;
           }
@@ -346,7 +347,7 @@ export const MainBar = styled.div`
     }
 
     input.search {
-      background: url('http://localhost:3001/images/search_evmmru.png')
+      background: url(${`${api_url}/images/search_evmmru.png`})
         no-repeat center right;
       padding: 10px;
       border: none;
