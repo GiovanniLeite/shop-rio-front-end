@@ -1,4 +1,4 @@
-# Loja shopRio -  React/Api/Mysql - 04/2021
+# Loja shopRio -  React/Api/Mysql - 04/2022
 Site da loja fictícia shopRio, projeto criado para o estudo de React, constitui-se de uma API escrita em Javascript, que tem como princípais pacotes node o Express e o Sequelize, e que conecta-se a um banco de dados MySQL, tem seu front-end feito também em Javascript com React, Redux, Redux Saga, Axios entre outros, tanto front-end quando back-end também utilizam os pacotes Eslint e Prettier para melhor escrita do código. É um site de e-commerce simples voltado a uma loja ou mercado que entregue os seus próprios produtos com seus funcionários sem a opção de operações de pagamento pelo site.
 O site pode ser divido em três áreas:
 
